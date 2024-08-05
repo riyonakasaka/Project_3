@@ -1,7 +1,7 @@
 # Project03
 This is project-03 for the lede program.
 <br>
-Link to the project-03 ()
+Link to the project-03 (https://riyonakasaka.github.io/Project_3/)
 
 ## Title
 Dining Habits of Japanese Prime Minister Fumio Kishida
@@ -16,12 +16,10 @@ To deepen the understanding of the Japanese Prime Minister by analyzing dining t
 2. Most dining locations are within a 5 km radius of the Official Residence/Prime Minister's Residence.
 
 ## Data Collection Process
-Data was scraped from Nikkei's "Prime Minister's Official Activities" articles. The scraping process can be reviewed on the GitHub page for Project 2, in the "scraping" section: GitHub Scraping Notebook(https://github.com/riyonakasaka/Project_2/blob/main/notebook/scrapping.ipynb).
+1.Data was scraped from Nikkei's "Prime Minister's Official Activities" articles. The scraping process can be reviewed on the GitHub page for Project 2, in the "scraping" section: GitHub Scraping Notebook(https://github.com/riyonakasaka/Project_2/blob/main/notebook/scrapping.ipynb).
+2.Restaurants listed from the scraping process were manually categorized by type and geographic information (refer to dataset PM_dinner.xlsx).
 
 ## Data Analysis Process
-Restaurant Classification: 
-Restaurants listed from the scraping process were manually categorized by type and geographic information (refer to dataset PM_dinner.xlsx).
-Analysis: 
 The frequency of dining by category was counted using foodcategory.ipynb, and results were exported to foodcategory.csv. Geographic data was processed with latitude and longitude in data.csv. Visualization was performed using Flourish and Datawrapper, with preliminary geojson files created.
 
 ## New Skills and Growth
